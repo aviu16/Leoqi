@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		157367A778BD178ACC39F6D2 /* Pods_LeoqiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC317D40389227F6E5F59D04 /* Pods_LeoqiTests.framework */; };
+		7C99E941116EDF5BB3A571DF /* Pods_Leoqi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD6AC1F15E877D87F98BE17 /* Pods_Leoqi.framework */; };
+		DC35962A32A2BB06608894F4 /* Pods_Leoqi_LeoqiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318BC245F570D6C43ABEAD83 /* Pods_Leoqi_LeoqiUITests.framework */; };
+		E914F78D2B5C692100FF25B1 /* LeoqiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914F78C2B5C692100FF25B1 /* LeoqiApp.swift */; };
+		E914F78F2B5C692100FF25B1 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914F78E2B5C692100FF25B1 /* HomeScreenView.swift */; };
+		E914F7912B5C692300FF25B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E914F7902B5C692300FF25B1 /* Assets.xcassets */; };
+		E914F7942B5C692300FF25B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E914F7932B5C692300FF25B1 /* Preview Assets.xcassets */; };
+		E914F79E2B5C692300FF25B1 /* LeoqiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914F79D2B5C692300FF25B1 /* LeoqiTests.swift */; };
+		E914F7A82B5C692300FF25B1 /* LeoqiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914F7A72B5C692300FF25B1 /* LeoqiUITests.swift */; };
+		E914F7AA2B5C692300FF25B1 /* LeoqiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914F7A92B5C692300FF25B1 /* LeoqiUITestsLaunchTests.swift */; };
+		E914F7B72B5C696D00FF25B1 /* CreationScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914F7B62B5C696D00FF25B1 /* CreationScreenView.swift */; };
+		E914F7B92B5C698E00FF25B1 /* ResultScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914F7B82B5C698E00FF25B1 /* ResultScreenView.swift */; };
+		E914F7BB2B5C69BA00FF25B1 /* ProfileViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914F7BA2B5C69BA00FF25B1 /* ProfileViewScreen.swift */; };
+		E9473A272BAA1587004A66A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9473A262BAA1587004A66A0 /* ViewController.swift */; };
+		E97B4BC92B856B7F00092237 /* Clothing&Scenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97B4BC82B856B7F00092237 /* Clothing&Scenario.swift */; };
+		E97B4BCB2B86774000092237 /* ImageStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97B4BCA2B86774000092237 /* ImageStyleView.swift */; };
+		E97B4BCD2B86B42400092237 /* SameCompon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97B4BCC2B86B42400092237 /* SameCompon.swift */; };
+		E97B4BCF2B8A72B900092237 /* ReviewPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97B4BCE2B8A72B900092237 /* ReviewPromptView.swift */; };
+		E97B4BD12B8EB57B00092237 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97B4BD02B8EB57B00092237 /* extensions.swift */; };
+		E9818CE62B7BD2C70051EEE9 /* CoreAppearanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9818CE52B7BD2C70051EEE9 /* CoreAppearanceView.swift */; };
+		E98884092B6DEB1600BAC0F7 /* OpenAiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98884082B6DEB1600BAC0F7 /* OpenAiService.swift */; };
+		E99920972B97B315007FC96B /* Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99920962B97B315007FC96B /* Shuffle.swift */; };
+		E9B254722B68A15500A7DCCE /* CharacterPromptGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B254712B68A15500A7DCCE /* CharacterPromptGenerator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E914F79A2B5C692300FF25B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E914F7812B5C692100FF25B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E914F7882B5C692100FF25B1;
+			remoteInfo = Leoqi;
+		};
+		E914F7A42B5C692300FF25B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E914F7812B5C692100FF25B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E914F7882B5C692100FF25B1;
+			remoteInfo = Leoqi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BC3E9D9345C3794C7935931 /* Pods-LeoqiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeoqiTests.debug.xcconfig"; path = "Target Support Files/Pods-LeoqiTests/Pods-LeoqiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		318BC245F570D6C43ABEAD83 /* Pods_Leoqi_LeoqiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leoqi_LeoqiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFDBA3FC5F4B51E23A05ECD /* Pods-Leoqi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leoqi.release.xcconfig"; path = "Target Support Files/Pods-Leoqi/Pods-Leoqi.release.xcconfig"; sourceTree = "<group>"; };
+		4BD6AC1F15E877D87F98BE17 /* Pods_Leoqi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leoqi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA643382F53E3AC84F8ACB2 /* Pods-LeoqiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeoqiTests.release.xcconfig"; path = "Target Support Files/Pods-LeoqiTests/Pods-LeoqiTests.release.xcconfig"; sourceTree = "<group>"; };
+		747A66EAF8548472A14EB6AC /* Pods-Leoqi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leoqi.debug.xcconfig"; path = "Target Support Files/Pods-Leoqi/Pods-Leoqi.debug.xcconfig"; sourceTree = "<group>"; };
+		9021FFBA5B9A5F040F8C331E /* Pods-Leoqi-LeoqiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leoqi-LeoqiUITests.release.xcconfig"; path = "Target Support Files/Pods-Leoqi-LeoqiUITests/Pods-Leoqi-LeoqiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E914F7892B5C692100FF25B1 /* Leoqi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leoqi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E914F78C2B5C692100FF25B1 /* LeoqiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeoqiApp.swift; sourceTree = "<group>"; };
+		E914F78E2B5C692100FF25B1 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		E914F7902B5C692300FF25B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E914F7932B5C692300FF25B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E914F7992B5C692300FF25B1 /* LeoqiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeoqiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E914F79D2B5C692300FF25B1 /* LeoqiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeoqiTests.swift; sourceTree = "<group>"; };
+		E914F7A32B5C692300FF25B1 /* LeoqiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeoqiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E914F7A72B5C692300FF25B1 /* LeoqiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeoqiUITests.swift; sourceTree = "<group>"; };
+		E914F7A92B5C692300FF25B1 /* LeoqiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeoqiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E914F7B62B5C696D00FF25B1 /* CreationScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationScreenView.swift; sourceTree = "<group>"; };
+		E914F7B82B5C698E00FF25B1 /* ResultScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreenView.swift; sourceTree = "<group>"; };
+		E914F7BA2B5C69BA00FF25B1 /* ProfileViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewScreen.swift; sourceTree = "<group>"; };
+		E9473A262BAA1587004A66A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E973D8E80BA5B76CE87CE35A /* Pods-Leoqi-LeoqiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leoqi-LeoqiUITests.debug.xcconfig"; path = "Target Support Files/Pods-Leoqi-LeoqiUITests/Pods-Leoqi-LeoqiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E97B4BC82B856B7F00092237 /* Clothing&Scenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clothing&Scenario.swift"; sourceTree = "<group>"; };
+		E97B4BCA2B86774000092237 /* ImageStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStyleView.swift; sourceTree = "<group>"; };
+		E97B4BCC2B86B42400092237 /* SameCompon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameCompon.swift; sourceTree = "<group>"; };
+		E97B4BCE2B8A72B900092237 /* ReviewPromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewPromptView.swift; sourceTree = "<group>"; };
+		E97B4BD02B8EB57B00092237 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		E9818CE52B7BD2C70051EEE9 /* CoreAppearanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAppearanceView.swift; sourceTree = "<group>"; };
+		E98884082B6DEB1600BAC0F7 /* OpenAiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAiService.swift; sourceTree = "<group>"; };
+		E99920962B97B315007FC96B /* Shuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shuffle.swift; sourceTree = "<group>"; };
+		E9A24EBC2BBC7CE7007F9C9A /* Leoqi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Leoqi.entitlements; sourceTree = "<group>"; };
+		E9A24EC12BBCB253007F9C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = /Users/parshant/Desktop/Leoqi/Leoqi/Info.plist; sourceTree = "<absolute>"; };
+		E9B254712B68A15500A7DCCE /* CharacterPromptGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterPromptGenerator.swift; sourceTree = "<group>"; };
+		FC317D40389227F6E5F59D04 /* Pods_LeoqiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeoqiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E914F7862B5C692100FF25B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C99E941116EDF5BB3A571DF /* Pods_Leoqi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E914F7962B5C692300FF25B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157367A778BD178ACC39F6D2 /* Pods_LeoqiTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E914F7A02B5C692300FF25B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC35962A32A2BB06608894F4 /* Pods_Leoqi_LeoqiUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		534FED13468180D55CD76331 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				747A66EAF8548472A14EB6AC /* Pods-Leoqi.debug.xcconfig */,
+				3BFDBA3FC5F4B51E23A05ECD /* Pods-Leoqi.release.xcconfig */,
+				E973D8E80BA5B76CE87CE35A /* Pods-Leoqi-LeoqiUITests.debug.xcconfig */,
+				9021FFBA5B9A5F040F8C331E /* Pods-Leoqi-LeoqiUITests.release.xcconfig */,
+				1BC3E9D9345C3794C7935931 /* Pods-LeoqiTests.debug.xcconfig */,
+				6FA643382F53E3AC84F8ACB2 /* Pods-LeoqiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		58B937B37D8C43FAC87B1163 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BD6AC1F15E877D87F98BE17 /* Pods_Leoqi.framework */,
+				318BC245F570D6C43ABEAD83 /* Pods_Leoqi_LeoqiUITests.framework */,
+				FC317D40389227F6E5F59D04 /* Pods_LeoqiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E914F7802B5C692100FF25B1 = {
+			isa = PBXGroup;
+			children = (
+				E914F78B2B5C692100FF25B1 /* Leoqi */,
+				E914F79C2B5C692300FF25B1 /* LeoqiTests */,
+				E914F7A62B5C692300FF25B1 /* LeoqiUITests */,
+				E914F78A2B5C692100FF25B1 /* Products */,
+				534FED13468180D55CD76331 /* Pods */,
+				58B937B37D8C43FAC87B1163 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E914F78A2B5C692100FF25B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E914F7892B5C692100FF25B1 /* Leoqi.app */,
+				E914F7992B5C692300FF25B1 /* LeoqiTests.xctest */,
+				E914F7A32B5C692300FF25B1 /* LeoqiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E914F78B2B5C692100FF25B1 /* Leoqi */ = {
+			isa = PBXGroup;
+			children = (
+				E9A24EBC2BBC7CE7007F9C9A /* Leoqi.entitlements */,
+				E914F78C2B5C692100FF25B1 /* LeoqiApp.swift */,
+				E914F78E2B5C692100FF25B1 /* HomeScreenView.swift */,
+				E9818CE52B7BD2C70051EEE9 /* CoreAppearanceView.swift */,
+				E97B4BC82B856B7F00092237 /* Clothing&Scenario.swift */,
+				E97B4BCA2B86774000092237 /* ImageStyleView.swift */,
+				E97B4BCE2B8A72B900092237 /* ReviewPromptView.swift */,
+				E914F7BA2B5C69BA00FF25B1 /* ProfileViewScreen.swift */,
+				E98884082B6DEB1600BAC0F7 /* OpenAiService.swift */,
+				E9B254712B68A15500A7DCCE /* CharacterPromptGenerator.swift */,
+				E97B4BCC2B86B42400092237 /* SameCompon.swift */,
+				E914F7B62B5C696D00FF25B1 /* CreationScreenView.swift */,
+				E914F7B82B5C698E00FF25B1 /* ResultScreenView.swift */,
+				E97B4BD02B8EB57B00092237 /* extensions.swift */,
+				E99920962B97B315007FC96B /* Shuffle.swift */,
+				E9473A262BAA1587004A66A0 /* ViewController.swift */,
+				E914F7902B5C692300FF25B1 /* Assets.xcassets */,
+				E9A24EC12BBCB253007F9C9A /* Info.plist */,
+				E914F7922B5C692300FF25B1 /* Preview Content */,
+			);
+			path = Leoqi;
+			sourceTree = "<group>";
+		};
+		E914F7922B5C692300FF25B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E914F7932B5C692300FF25B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E914F79C2B5C692300FF25B1 /* LeoqiTests */ = {
+			isa = PBXGroup;
+			children = (
+				E914F79D2B5C692300FF25B1 /* LeoqiTests.swift */,
+			);
+			path = LeoqiTests;
+			sourceTree = "<group>";
+		};
+		E914F7A62B5C692300FF25B1 /* LeoqiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E914F7A72B5C692300FF25B1 /* LeoqiUITests.swift */,
+				E914F7A92B5C692300FF25B1 /* LeoqiUITestsLaunchTests.swift */,
+			);
+			path = LeoqiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E914F7882B5C692100FF25B1 /* Leoqi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E914F7AD2B5C692300FF25B1 /* Build configuration list for PBXNativeTarget "Leoqi" */;
+			buildPhases = (
+				9D7DFDEFFE03F41A3621D512 /* [CP] Check Pods Manifest.lock */,
+				E914F7852B5C692100FF25B1 /* Sources */,
+				E914F7862B5C692100FF25B1 /* Frameworks */,
+				E914F7872B5C692100FF25B1 /* Resources */,
+				898853A411F3A8AF2B650787 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Leoqi;
+			packageProductDependencies = (
+			);
+			productName = Leoqi;
+			productReference = E914F7892B5C692100FF25B1 /* Leoqi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E914F7982B5C692300FF25B1 /* LeoqiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E914F7B02B5C692300FF25B1 /* Build configuration list for PBXNativeTarget "LeoqiTests" */;
+			buildPhases = (
+				295355E6D254EEF1F1514BE5 /* [CP] Check Pods Manifest.lock */,
+				E914F7952B5C692300FF25B1 /* Sources */,
+				E914F7962B5C692300FF25B1 /* Frameworks */,
+				E914F7972B5C692300FF25B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E914F79B2B5C692300FF25B1 /* PBXTargetDependency */,
+			);
+			name = LeoqiTests;
+			productName = LeoqiTests;
+			productReference = E914F7992B5C692300FF25B1 /* LeoqiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E914F7A22B5C692300FF25B1 /* LeoqiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E914F7B32B5C692300FF25B1 /* Build configuration list for PBXNativeTarget "LeoqiUITests" */;
+			buildPhases = (
+				0698A52D57BA2A7DF1D9FD5B /* [CP] Check Pods Manifest.lock */,
+				E914F79F2B5C692300FF25B1 /* Sources */,
+				E914F7A02B5C692300FF25B1 /* Frameworks */,
+				E914F7A12B5C692300FF25B1 /* Resources */,
+				297ACDBEF0DE50E2699CCD6C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E914F7A52B5C692300FF25B1 /* PBXTargetDependency */,
+			);
+			name = LeoqiUITests;
+			productName = LeoqiUITests;
+			productReference = E914F7A32B5C692300FF25B1 /* LeoqiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E914F7812B5C692100FF25B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E914F7882B5C692100FF25B1 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					E914F7982B5C692300FF25B1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E914F7882B5C692100FF25B1;
+					};
+					E914F7A22B5C692300FF25B1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E914F7882B5C692100FF25B1;
+					};
+				};
+			};
+			buildConfigurationList = E914F7842B5C692100FF25B1 /* Build configuration list for PBXProject "Leoqi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E914F7802B5C692100FF25B1;
+			packageReferences = (
+			);
+			productRefGroup = E914F78A2B5C692100FF25B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E914F7882B5C692100FF25B1 /* Leoqi */,
+				E914F7982B5C692300FF25B1 /* LeoqiTests */,
+				E914F7A22B5C692300FF25B1 /* LeoqiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E914F7872B5C692100FF25B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E914F7942B5C692300FF25B1 /* Preview Assets.xcassets in Resources */,
+				E914F7912B5C692300FF25B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E914F7972B5C692300FF25B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E914F7A12B5C692300FF25B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0698A52D57BA2A7DF1D9FD5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Leoqi-LeoqiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		295355E6D254EEF1F1514BE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeoqiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		297ACDBEF0DE50E2699CCD6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Leoqi-LeoqiUITests/Pods-Leoqi-LeoqiUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Leoqi-LeoqiUITests/Pods-Leoqi-LeoqiUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Leoqi-LeoqiUITests/Pods-Leoqi-LeoqiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		898853A411F3A8AF2B650787 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Leoqi/Pods-Leoqi-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Leoqi/Pods-Leoqi-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Leoqi/Pods-Leoqi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D7DFDEFFE03F41A3621D512 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Leoqi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E914F7852B5C692100FF25B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97B4BCB2B86774000092237 /* ImageStyleView.swift in Sources */,
+				E914F78F2B5C692100FF25B1 /* HomeScreenView.swift in Sources */,
+				E9B254722B68A15500A7DCCE /* CharacterPromptGenerator.swift in Sources */,
+				E97B4BC92B856B7F00092237 /* Clothing&Scenario.swift in Sources */,
+				E97B4BCF2B8A72B900092237 /* ReviewPromptView.swift in Sources */,
+				E97B4BCD2B86B42400092237 /* SameCompon.swift in Sources */,
+				E914F7B72B5C696D00FF25B1 /* CreationScreenView.swift in Sources */,
+				E98884092B6DEB1600BAC0F7 /* OpenAiService.swift in Sources */,
+				E914F78D2B5C692100FF25B1 /* LeoqiApp.swift in Sources */,
+				E914F7BB2B5C69BA00FF25B1 /* ProfileViewScreen.swift in Sources */,
+				E97B4BD12B8EB57B00092237 /* extensions.swift in Sources */,
+				E914F7B92B5C698E00FF25B1 /* ResultScreenView.swift in Sources */,
+				E9818CE62B7BD2C70051EEE9 /* CoreAppearanceView.swift in Sources */,
+				E9473A272BAA1587004A66A0 /* ViewController.swift in Sources */,
+				E99920972B97B315007FC96B /* Shuffle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E914F7952B5C692300FF25B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E914F79E2B5C692300FF25B1 /* LeoqiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E914F79F2B5C692300FF25B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E914F7A82B5C692300FF25B1 /* LeoqiUITests.swift in Sources */,
+				E914F7AA2B5C692300FF25B1 /* LeoqiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E914F79B2B5C692300FF25B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E914F7882B5C692100FF25B1 /* Leoqi */;
+			targetProxy = E914F79A2B5C692300FF25B1 /* PBXContainerItemProxy */;
+		};
+		E914F7A52B5C692300FF25B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E914F7882B5C692100FF25B1 /* Leoqi */;
+			targetProxy = E914F7A42B5C692300FF25B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E914F7AB2B5C692300FF25B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E914F7AC2B5C692300FF25B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E914F7AE2B5C692300FF25B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 747A66EAF8548472A14EB6AC /* Pods-Leoqi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Leoqi/Leoqi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Leoqi/Preview Content\"";
+				DEVELOPMENT_TEAM = 7JSS627Y6U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Leoqi/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires access to your photo library to save and share your generated images.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imagetovideo.Leoqi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E914F7AF2B5C692300FF25B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BFDBA3FC5F4B51E23A05ECD /* Pods-Leoqi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Leoqi/Leoqi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Leoqi/Preview Content\"";
+				DEVELOPMENT_TEAM = 7JSS627Y6U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Leoqi/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires access to your photo library to save and share your generated images.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imagetovideo.Leoqi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E914F7B12B5C692300FF25B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BC3E9D9345C3794C7935931 /* Pods-LeoqiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JSS627Y6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imagetovideo.LeoqiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leoqi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Leoqi";
+			};
+			name = Debug;
+		};
+		E914F7B22B5C692300FF25B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA643382F53E3AC84F8ACB2 /* Pods-LeoqiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JSS627Y6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imagetovideo.LeoqiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leoqi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Leoqi";
+			};
+			name = Release;
+		};
+		E914F7B42B5C692300FF25B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E973D8E80BA5B76CE87CE35A /* Pods-Leoqi-LeoqiUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JSS627Y6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imagetovideo.LeoqiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Leoqi;
+			};
+			name = Debug;
+		};
+		E914F7B52B5C692300FF25B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9021FFBA5B9A5F040F8C331E /* Pods-Leoqi-LeoqiUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JSS627Y6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imagetovideo.LeoqiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Leoqi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E914F7842B5C692100FF25B1 /* Build configuration list for PBXProject "Leoqi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E914F7AB2B5C692300FF25B1 /* Debug */,
+				E914F7AC2B5C692300FF25B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E914F7AD2B5C692300FF25B1 /* Build configuration list for PBXNativeTarget "Leoqi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E914F7AE2B5C692300FF25B1 /* Debug */,
+				E914F7AF2B5C692300FF25B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E914F7B02B5C692300FF25B1 /* Build configuration list for PBXNativeTarget "LeoqiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E914F7B12B5C692300FF25B1 /* Debug */,
+				E914F7B22B5C692300FF25B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E914F7B32B5C692300FF25B1 /* Build configuration list for PBXNativeTarget "LeoqiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E914F7B42B5C692300FF25B1 /* Debug */,
+				E914F7B52B5C692300FF25B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E914F7812B5C692100FF25B1 /* Project object */;
+}
